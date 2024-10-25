@@ -15,7 +15,7 @@ function App() {
           path="/student/:studentId"
           element={<StudentDetailsPage />}
         ></Route>
-        <Route path="/userProfile" element={<UserProfilePage />}></Route>
+        <Route path="/Profile" element={<UserProfilePage />}></Route>
       </Routes>
       <div className="pages"></div>
     </div>
